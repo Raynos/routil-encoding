@@ -1,0 +1,35 @@
+{
+  "name": "routil-encoding",
+  "version": "0.0.1",
+  "description": "handle multiple encodings",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/routil-encoding.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/routil-encoding",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/routil-encoding/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "negotiator": "~0.2.4"
+  },
+  "devDependencies": {
+    "tap": "0.2.5",
+    "test-server": "0.0.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/routil-encoding/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "make node-test"
+  }
+}
